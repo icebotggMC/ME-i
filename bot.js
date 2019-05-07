@@ -31,15 +31,6 @@ LET'S GO!
 });
 
 
-client.on('guildMemberAdd', member => {
-  
-  const channel = member.guild.channels.find(ch => ch.name === 'اسم الشات');
- 
-  if (!channel) return;
-
-  channel.send(`الرسالة`);
-	
-	
 	
 	const developers = ["457732668155494402","390930893222707200",""]
 const adminprefix = "w!";

@@ -30,14 +30,6 @@ LET'S GO!
 
 });
 
-client.on('guildMemberAdd', member => {
-  
-  const channel = member.guild.channels.find(ch => ch.name === '🌈⇅chat-شــات');
- 
-  if (!channel) return;
-
-  channel.send(`ويلكم يلي دخل حياك`);
-}); // حقوق سنو كودز و ديمونك
 
 	
 	const developers = ["457732668155494402","390930893222707200",""]

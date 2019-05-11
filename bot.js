@@ -32,7 +32,7 @@ LET'S GO!
 
 
 	
-	const developers = ["457732668155494402","390930893222707200",""]
+	const developers = ["576834075692630032","348839917272694785",""]
 const adminprefix = "w!";
 client.on('message', message => {
     var argresult = message.content.split(` `).slice(1).join(' ');
